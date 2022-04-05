@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tesla.clone</title>
     <link rel="stylesheet" href="index.css" />
-  </head> 
+  </head>
   <body>
     <header>
       <div id="headerElements">
         <div>
           <svg
+            id="tesla"
             class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon"
             style="height: 24px; width: 120px"
             viewBox="0 0 342 35"
@@ -25,33 +26,198 @@
         </div>
         <div>
           <ul class="navbarBox">
-            <li class="navbarItem">Model S</li>
-            <li class="navbarItem">Model 3</li>
-            <li class="navbarItem">Model X</li>
-            <li class="navbarItem">Model Y</li>
-            <li class="navbarItem">Solar Roof</li>
-            <li class="navbarItem">Solar Panels</li>
+            <a
+              id="modelS"
+              href="https://www.tesla.com/models"
+              class="navbarItem"
+              >Model S</a
+            >
+            <a href="https://www.tesla.com/model3" class="navbarItem"
+              >Model 3</a
+            >
+            <a href="https://www.tesla.com/modelx" class="navbarItem"
+              >Model X</a
+            >
+            <a href="https://www.tesla.com/modely" class="navbarItem"
+              >Model Y</a
+            >
+            <a href="https://www.tesla.com/solarroof" class="navbarItem"
+              >Solar Roof</a
+            >
+            <a href="https://www.tesla.com/solarpanels" class="navbarItem"
+              >Solar Panels</a
+            >
           </ul>
         </div>
 
         <div>
           <ul class="navbarBox">
-            <li class="navbarItem">Shop</li>
-            <li class="navbarItem">Account</li>
-            <li class="navbarItem">Menu</li>
+            <a href="https://shop.tesla.com/" class="navbarItem">Shop</a>
+            <a
+              href="https://auth.tesla.com/oauth2/v1/authorize?redirect_uri=https%3A%2F%2Fwww.tesla.com%2Fteslaaccount%2Fowner-xp%2Fauth%2Fcallback&response_type=code&client_id=ownership&scope=offline_access%20openid%20ou_code%20email&audience=https%3A%2F%2Fownership.tesla.com%2F&locale=en-US"
+              class="navbarItem"
+              >Account</a
+            >
+            <a class="navbarItem">Menu</a>
           </ul>
         </div>
       </div>
     </header>
-    <body>
+
+    <div>
+      <p id="navbarHeader">Model 3</p>
+      <p id="navbarSubheader">
+        Order Online for
+        <a
+          id="delivery3"
+          href="https://www.tesla.com/support/taking-delivery?redirect=no"
+        >
+          Touchless Delivery</a
+        >
+      </p>
+    </div>
+    <div class="navbarR">
+      <a href="https://www.tesla.com/model3/design#overview" class="navbarRound"
+        >CUSTOM ORDER</a
+      >
+      <a
+        href="https://www.tesla.com/inventory/new/m3?arrangeby=relevance&zip=98122&range=200"
+        class="navbarRounded"
+        >EXISTING INVENTORY</a
+      >
+    </div>
+    <div class="page2">
       <div>
-        <p id="navbarHeader">Model 3</p>
-        <p id="navbarSubheader">Order Online for Touchless Delivery</p>
+        <p id="navbarHeader">Model Y</p>
+        <p id="navbarSubheader">
+          Order Online for
+          <a
+            id="delivery3"
+            href="https://www.tesla.com/support/taking-delivery?redirect=no"
+          >
+            Touchless Delivery</a
+          >
+        </p>
       </div>
       <div class="navbarR">
-        <span class="navbarRound">CUSTOM ORDER</span>
-        <span class="navbarRounded">EXISTING INVENTORY</span>
+        <a
+          href="https://www.tesla.com/modely/design#overview"
+          class="navbarRound"
+          >CUSTOM ORDER</a
+        >
+        <a
+          href="https://www.tesla.com/inventory/new/my?arrangeby=relevance&zip=98122&range=200"
+          class="navbarRounded"
+          >EXISTING INVENTORY</a
+        >
       </div>
-    </body>
+    </div>
+    <div class="page3">
+      <div>
+        <p id="navbarHeader">Model S</p>
+        <p id="navbarSubheader">
+          Order Online for
+          <a
+            id="delivery3"
+            href="https://www.tesla.com/support/taking-delivery?redirect=no"
+          >
+            Touchless Delivery</a
+          >
+        </p>
+      </div>
+      <div class="navbarR">
+        <a
+          href="https://www.tesla.com/models/design#overview"
+          class="navbarRound"
+          >CUSTOM ORDER</a
+        >
+        <a
+          href="https://www.tesla.com/inventory/new/ms?arrangeby=relevance&zip=98122&range=200"
+          class="navbarRounded"
+          >EXISTING INVENTORY</a
+        >
+      </div>
+    </div>
+    <div class="page4">
+      <div>
+        <p id="navbarHeader">Model X</p>
+        <p id="navbarSubheader">
+          Order Online for
+          <a
+            id="delivery3"
+            href="https://www.tesla.com/support/taking-delivery?redirect=no"
+          >
+            Touchless Delivery</a
+          >
+        </p>
+      </div>
+      <div class="navbarR">
+        <a
+          href="https://www.tesla.com/modelx/design#overview"
+          class="navbarRound"
+          >CUSTOM ORDER</a
+        >
+        <a
+          href="https://www.tesla.com/inventory/new/mx?arrangeby=relevance&zip=98122&range=200"
+          class="navbarRounded"
+          >EXISTING INVENTORY</a
+        >
+      </div>
+    </div>
+    <div class="page5">
+      <div>
+        <p id="navbarHeader">Solar Panels</p>
+        <p id="navbarSubheader">
+          Order Online for Lowest Cost Solar Panels in America
+        </p>
+      </div>
+      <div class="navbarR">
+        <a href="https://www.tesla.com/energy/design" class="navbarRound"
+          >ORDER NOW</a
+        >
+        <a href="https://www.tesla.com/solarpanels" class="navbarRounded"
+          >LEARN MORE</a
+        >
+      </div>
+    </div>
+    <div class="page6">
+      <div>
+        <p id="navbarHeader">Solar Roof</p>
+        <p id="navbarSubheader">Produce Clean Energy From Your Roof</p>
+      </div>
+      <div class="navbarR">
+        <a href="https://www.tesla.com/energy/design" class="navbarRound"
+          >ORDER NOW</a
+        >
+        <a href="https://www.tesla.com/solarroof" class="navbarRounded"
+          >LEARN MORE</a
+        >
+      </div>
+    </div>
+    <div class="page7">
+      <div>
+        <p id="navbarHeader">Accesories</p>
+      </div>
+      <div class="navbarB">
+        <a href="https://www.tesla.com/energy/design" class="lastpage"
+          >SHOP NOW</a
+        >
+        <div class="bottom">
+          <div class="foot">
+            <a href="https://www.tesla.com/about">Tesla © 2022</a>
+            <a href="https://www.tesla.com/legal">Privacy & Legal</a>
+            <a href="https://service.tesla.com/vin-recall-search"
+              >Vehicle Recalls</a
+            >
+            <a href="https://www.tesla.com/contact">Contact</a>
+            <a href="https://www.tesla.com/careers">Careers</a>
+            <a href="https://www.tesla.com/blog">News</a>
+            <a href="https://engage.tesla.com/">Engage</a>
+            <a href="https://www.tesla.com/findus/list">Locations</a>
+          </div>
+        
+        </div>
+      </div>
+    </div>
   </body>
 </html>
