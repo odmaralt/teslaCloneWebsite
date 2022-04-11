@@ -290,8 +290,6 @@
   #tesla {
     padding-left: 92px;
   }
-  body {
-  }
   .navbarR {
     display: flex;
     flex-direction: column;
@@ -345,5 +343,26 @@
   }
   #accesories {
     margin-top: 180px;
+  }
+  .page2 {
+    background-size: contain;
+  }
+  .page3 {
+    background-size: contain;
+  }
+  .page4 {
+    background-size: contain;
+  }
+  .page5 {
+    background-size: contain;
+  }
+  .page6 {
+    background-size: contain;
+  }
+  .page7 {
+    background-size: contain;
+  }
+  .page1 {
+    background-size: contain;
   }
 }
